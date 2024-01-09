@@ -2,6 +2,9 @@
 1. 在three_dimensions/config/config.py下配置好目标和机器人的初始2维坐标
 
 2. 执行main.py的主程序。运行日志和仿真截图保存在logs对应日期的字目录下
+
+以目标坐标[29, 41, -20], 初始坐标[0, 0, -5]为例，主程序循环调用chatGPT，机器人根据目标轨迹和水流速度，计算下一步的运动速度向量，最终到达目的地。
+
 ![](https://piclist-1321200338.cos.ap-nanjing.myqcloud.com/gif-2024-01-08%20at%2020.26.36.gif)
 
 
