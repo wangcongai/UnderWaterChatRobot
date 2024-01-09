@@ -1,8 +1,8 @@
 import numpy as np
 
 # 导入其他文件中定义的模块
-from config import config
-from tools import functions
+from two_dimensions.config import config
+from two_dimensions.tools import functions
 
 
 # 定义一个仿真类

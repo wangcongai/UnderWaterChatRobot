@@ -1,4 +1,4 @@
-from config import config
+from two_dimensions.config import config
 
 
 class ChatGptDialog:
